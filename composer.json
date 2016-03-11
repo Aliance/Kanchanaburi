@@ -15,5 +15,8 @@
   },
   "autoload": {
     "psr-4": {"Aliance\\Kanchanaburi\\": "source/"}
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
   }
 }
