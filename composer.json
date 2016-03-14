@@ -16,6 +16,9 @@
   "autoload": {
     "psr-4": {"Aliance\\Kanchanaburi\\": "source/"}
   },
+  "require": {
+    "monolog/monolog": "1.18.1"
+  },
   "require-dev": {
     "phpunit/phpunit": "5.2.*"
   }
