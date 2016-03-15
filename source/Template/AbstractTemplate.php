@@ -9,6 +9,11 @@ use RuntimeException;
  */
 abstract class AbstractTemplate {
     /**
+     * @var string
+     */
+    const PATH = '';
+
+    /**
      * @var array
      */
     protected $templateFiles = [];
