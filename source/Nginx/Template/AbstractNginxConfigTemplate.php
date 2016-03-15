@@ -1,6 +1,10 @@
 <?php
 namespace Aliance\Kanchanaburi\Nginx\Template;
 
+use Aliance\Kanchanaburi\Config\Config;
+use Aliance\Kanchanaburi\Server\NginxServer;
+use Aliance\Kanchanaburi\Template\AbstractTemplate;
+
 /**
  * Abstract nginx config template
  */

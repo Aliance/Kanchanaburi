@@ -4,6 +4,8 @@ namespace Aliance\Kanchanaburi\Nginx\Script;
 use Aliance\Kanchanaburi\Cli\Option;
 use Aliance\Kanchanaburi\Controller\Script\ScriptController;
 use Aliance\Kanchanaburi\File\File;
+use Aliance\Kanchanaburi\Nginx\Template\Base\BaseNginxConfigTemplate;
+use Aliance\Kanchanaburi\Server\ServerFactory;
 
 /**
  * Creates nginx config from template

@@ -1,0 +1,12 @@
+<?php
+/**
+ * @var $this \Aliance\Kanchanaburi\Nginx\Template\Base\BaseNginxConfigTemplate
+ */
+?>
+<?php if ($this->NginxWeb !== NULL): ?>
+<?= $this->NginxWeb->getContent() ?>
+<?php endif ?>
+
+<?php if ($this->NginxStatics !== NULL): ?>
+<?= $this->NginxStatics->getContent() ?>
+<?php endif ?>
