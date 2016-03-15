@@ -20,6 +20,14 @@ Add following code to your `composer.json` file:
 
 And install it via Composer, eg. `php composer.phar install`
 
+## [Docker](#docker)
+
+You may use the already built docker image from [aliance/kanchanaburi-base](https://hub.docker.com/r/aliance/kanchanaburi-base/):
+
+```bash
+$ docker pull aliance/kanchanaburi-base
+```
+
 ## [License](#license)
 
 See [License](LICENSE) for details.
